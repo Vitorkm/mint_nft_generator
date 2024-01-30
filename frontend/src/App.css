@@ -1,0 +1,40 @@
+.buttons {
+  display: inline-flex;
+  align-items: center;
+  background: #121212;
+  border-color: #E3e;
+}
+
+.buttons:hover {
+  background: rgba(238, 51,238, 0.5) !important;
+  border-color: transparent;
+  box-shadow: 0 0 0.5rem rgba(238, 51,238, 0.5);
+}
+
+.imgBox {
+  width: 350px;
+  height: 350px;
+  position: relative;
+  background-color: #49494975;
+  border-radius: 10px;
+}
+
+.cog {
+  color: #51586f;
+  transition: 0.3s;
+  margin-left: 1rem;
+}
+
+.cog:hover {
+  color: white;
+  rotate: 90deg;
+  cursor: pointer;
+}
+
+.generateDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  margin-top: 1rem;
+}
